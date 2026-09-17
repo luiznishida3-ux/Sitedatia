@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "name": "Dra. Luzia de Cassia Nishida — Advocacia",
+    "category": "Advocacia / Escritório de Advocacia Boutique",
+    "language": "pt-BR",
+    "target_audience": "Pessoas físicas e jurídicas buscando assessoria jurídica de alta precisão, discrição, atendimento personalizado e alta taxa de êxito em São Paulo/Brasil.",
+    "app_type": "landing_page",
+    "design_level": "Awwwards Site-of-the-Day Level (Kinetic Editorial & Corporate Luxury)"
+  },
+  "theme_strategy": {
+    "mode": "dark_institutional_luxury",
+    "archetype": "ARCHETYPE 5: LUXURY & AUTHORITY",
+    "visual_vibe": "Sóbrio, solene, artesanal e contemporâneo. Fundo escuro profundo estilo ardósia/ônix com detalhes em Ouro Champanhe, Marfim e Verde Mosaico Profundo. Tipografia editorial dramática, recortes de revistas jurídicas de alto padrão e micro-interações suaves."
+  },
+  "color_palette": {
+    "background_primary": "#0A0D14",
+    "background_secondary": "#111622",
+    "background_card": "#161D2E",
+    "surface_glass": "rgba(17, 22, 34, 0.75)",
+    "text_primary": "#F5F3EF",
+    "text_secondary": "#A1A8B8",
+    "text_muted": "#646E82",
+    "accent_gold": "#C5A059",
+    "accent_gold_hover": "#D8B46E",
+    "accent_gold_glow": "rgba(197, 160, 89, 0.18)",
+    "accent_emerald": "#0D2B26",
+    "border_subtle": "rgba(197, 160, 89, 0.20)",
+    "border_card": "rgba(255, 255, 255, 0.08)"
+  },
+  "typography": {
+    "google_fonts_imports": [
+      "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    ],
+    "headings": {
+      "font_family": "'Cormorant Garamond', Georgia, serif",
+      "weights": "400, 600, 700",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold tracking-tight text-[#F5F3EF] leading-[1.1]",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-serif font-medium tracking-tight text-[#F5F3EF] leading-[1.15]",
+      "h3": "text-2xl sm:text-3xl font-serif font-medium text-[#F5F3EF]",
+      "h4": "text-xl font-serif font-medium text-[#F5F3EF]"
+    },
+    "body": {
+      "font_family": "'Plus Jakarta Sans', -apple-system, sans-serif",
+      "base": "text-base font-normal text-[#A1A8B8] leading-relaxed",
+      "small": "text-sm text-[#A1A8B8] leading-normal"
+    },
+    "mono_accents": {
+      "font_family": "'JetBrains Mono', monospace",
+      "eyebrow": "text-xs uppercase tracking-[0.25em] font-mono font-medium text-[#C5A059]"
+    }
+  },
+  "key_components_structure": [
+    {
+      "name": "NavigationHeader",
+      "description": "Fixed glassmorphism header with Dra. Luzia logo, OAB badge tag, navigation links (Sobre, Atuação, Galeria, Depoimentos, Contato), and a primary 'Agendar Consulta' CTA button.",
+      "features": ["Backdrop blur", "OAB/SP disclosure", "Mobile Drawer", "Data-testid attributes"]
+    },
+    {
+      "name": "KineticHero",
+      "description": "Signature entry moment with line-by-line reveal animation (Framer Motion masked reveal). Contains lawyer executive portrait with gold trim, 3D CSS floating balance/legal emblem card, authority statistics counter, and dual CTAs.",
+      "features": ["Masked line reveal", "Parallax tilt card", "Quick Stats (+15 anos, +1200 causas)", "WhatsApp Fast Action"]
+    },
+    {
+      "name": "EditorialMarquee",
+      "description": "Slow, smooth drifting marquee ribbon built with custom CSS / framer-motion featuring core legal principles separated by gold rhombuses.",
+      "features": ["Slow drift velocity", "Low-contrast gold text on deep onyx background", "High editorial touch"]
+    },
+    {
+      "name": "ManifestoSection",
+      "description": "Numbered chapters style ('Capítulo 01: Rigor Técnico', 'Capítulo 02: Atendimento Sob Medida', 'Capítulo 03: Resultados & Ética'). Includes Dra. Luzia's biography, academic background, OAB registration detail, and signature.",
+      "features": ["Numbered editorial layout", "Interactive tab/accordion focus", "Credentials showcase"]
+    },
+    {
+      "name": "PracticeAreasBento",
+      "description": "Asymmetric Bento Grid showcasing core legal services: Direito Civil, Família e Sucessões, Direito Empresarial, Imobiliário, Contratos & Preventivo.",
+      "features": ["Interactive expandable drawer/modal for detailed scope", "Hover highlight borders", "Direct consultation link per area"]
+    },
+    {
+      "name": "RealOfficeGallery",
+      "description": "Interactive gallery showing authentic high-resolution photos of the law office interior, consultation rooms, library, and meeting space.",
+      "features": ["Category filter tabs", "Lightbox photo preview", "High resolution image grid"]
+    },
+    {
+      "name": "ClientTestimonials",
+      "description": "Verified client reviews featuring ratings (5 stars), client names, case types, avatar photos, and verified badges.",
+      "features": ["Interactive carousel or staggered grid", "Filter by legal field", "OAB-compliant review format"]
+    },
+    {
+      "name": "HoursAndMapSection",
+      "description": "Operating hours display (Seg a Sex 08h30 - 18h00) alongside a stylized dark dark-themed interactive map with location pin, address details, and direct Waze/Google Maps routing triggers.",
+      "features": ["Interactive status indicator (Aberto Agora / Fechado)", "Custom styled map panel", "One-click copy address"]
+    },
+    {
+      "name": "ContactAndWhatsAppCTA",
+      "description": "Dual conversion hub: Direct WhatsApp link with pre-filled message, direct telephone trigger, address, and interactive consultation request form with date picker.",
+      "features": ["Form validation", "Direct WhatsApp message generator", "Interactive feedback via Sonner toast"]
+    },
+    {
+      "name": "FooterSection",
+      "description": "Institutional footer with OAB regulatory disclaimers, quick links, emergency contact button, and back-to-top button.",
+      "features": ["OAB Code of Ethics compliance note", "Copyright 2026", "Smooth scroll to top"]
+    }
+  ],
+  "image_urls": {
+    "hero_lawyer_portrait": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    "about_lawyer_profile": "https://images.pexels.com/photos/7841855/pexels-photo-7841855.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "office_interior_main": "https://images.pexels.com/photos/38658306/pexels-photo-38658306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "office_study_room": "https://images.pexels.com/photos/6077091/pexels-photo-6077091.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "office_desk_classic": "https://images.unsplash.com/photo-1767277680055-34f1eeec0c26?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    "meeting_room": "https://images.pexels.com/photos/6899396/pexels-photo-6899396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "client_avatars": [
+      "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?crop=entropy&cs=srgb&fm=jpg&q=85&w=300",
+      "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=srgb&fm=jpg&q=85&w=300",
+      "https://images.pexels.com/photos/8111826/pexels-photo-8111826.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+    ]
+  },
+  "motion_and_effects": {
+    "smooth_scroll": "Lenis for React / Native smooth scroll handling",
+    "entrance_animations": "Framer motion staggerChildren with y: 30 to y: 0, opacity: 0 to 1",
+    "masked_text_reveal": "Overflow-hidden wrapper with inner motion span sliding up",
+    "hover_effects": "Border glow transition, subtle lift (translate-y-1), background tint shift",
+    "parallax_card": "Framer Motion mouse coordinate tilt tracking on Hero visual card"
+  },
+  "testing_and_accessibility": {
+    "data_testids_required": [
+      "nav-logo",
+      "nav-link-sobre",
+      "nav-link-atuacao",
+      "nav-link-galeria",
+      "nav-link-depoimentos",
+      "nav-link-contato",
+      "hero-cta-whatsapp",
+      "hero-cta-agendar",
+      "practice-area-card-0",
+      "practice-area-card-1",
+      "gallery-filter-todas",
+      "testimonial-card-0",
+      "contact-form-submit-button",
+      "contact-input-name",
+      "contact-input-phone",
+      "contact-input-area",
+      "contact-input-message",
+      "hours-status-badge"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a stunning, complete single-page website for 'Dra. Luzia de Cassia Nishida — Advocacia'.",
+    "Ensure the design conveys high institutional authority, trust, and luxury with Cormorant Garamond font for headings and Plus Jakarta Sans for body.",
+    "Implement Framer Motion for line-by-line kinetic reveal in the Hero section, scroll reveal animations on all sections, and micro-interactions.",
+    "Include all required sections: Hero, Marquee, About/Manifesto (numbered chapters), Bento practice areas grid, Gallery with office photos, Client testimonials, Business hours + styled dark map, Contact with WhatsApp integration + form, and Footer.",
+    "Add test IDs (`data-testid`) to all interactive buttons, inputs, links, and key cards.",
+    "Ensure response forms trigger toasts using Sonner.",
+    "Maintain strict Portuguese (Brasil) throughout all copy."
+  ]
+}
